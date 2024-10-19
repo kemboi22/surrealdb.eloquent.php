@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "name": "kemboielvis/eloquent-surreal-db",
+  "description": "This is a more rubost way to handle Surreal DB Connections",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Kemboielvis\\EloquentSurrealDb\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "kemboi22",
+      "email": "kemboielvis22@gmail.com"
+    }
+  ],
+  "require": {
+    "illuminate/support": "^11.28",
+    "illuminate/collections": "^11.28"
+  }
+}
